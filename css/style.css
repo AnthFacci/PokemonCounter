@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+
+html, body, #mainContent{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+#mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #111524;
+    position: relative;
+}
+
+
+#counter{
+    border: 1px solid #1F2434;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 20px rgb(0,0,0, #1F2434);
+    background-color: #1F2434;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.borderCounter{
+    border: 1px solid #1F2434;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    gap: 5px;
+}
+
+#redTitle{
+ color: #E53251;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+.imgPokebola{
+    
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: 600px;
+    
+}
+
+
+.imgNidoking{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 600px;
+    right: 0px;
+}
+
+.imgGengar{
+    position: absolute;
+    top: 670px;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+}
+
+#inp{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+
+#number{
+    position: absolute;
+    left: 950px;
+}
+
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    overflow: hidden;
+  }
+
+
+#btnReset{
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: #111524 1px solid;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#btnReset:hover{
+    transform: scale(1.1);
+}
+
+
+#btnMenos{
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: #111524 1px solid;
+    border-radius: 5px;
+    transition: 0.3s;
+   
+}
+
+#btnMenos:hover{
+    transform: scale(1.1);
+}
